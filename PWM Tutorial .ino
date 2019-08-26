@@ -1,5 +1,5 @@
 //PWM Tutorial 
-/* ///TESTINGGGGG TESTINGGGGGGG
+//Understood. complete
   Button
 //testing testing one two three
   Turns on and off a light emitting diode(LED) connected to digital pin 13,
@@ -79,12 +79,6 @@ void loop() {
     analogWrite(ledPin, 191);
     delay (500);
     analogWrite(ledPin, 255);
-    delay (500);
-    analogWrite(ledPin, 191);
-    delay (500);
-    analogWrite(ledPin, 127);
-    delay (500);
-    analogWrite(ledPin, 64);
     delay (500);
   } else {
     // turn LED off:
